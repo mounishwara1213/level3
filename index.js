@@ -50,7 +50,7 @@ const todoList = () => {
     }
   
     const toDisplayableList = (list) => {
-      let OUTPUT_STRING=list.join("/n")
+      let OUTPUT_STRING=list.join("\n")
       return OUTPUT_STRING
     }
   
